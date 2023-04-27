@@ -1,0 +1,47 @@
+.bingo {
+    background-color: red;
+    min-width: 100%;
+    padding: 50px;
+}
+
+.red-gradient {
+    background: #c31432; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #240b36,
+        #c31432
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #240b36,
+        #c31432
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.blue-gradient {
+    background: #000046; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #1cb5e0,
+        #000046
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #1cb5e0,
+        #000046
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.orange-graient {
+    background: #f12711; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #f5af19,
+        #f12711
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #f5af19,
+        #f12711
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:focus {
+    outline: none;
+}
+
+@layer base {
+    body {
+        @apply bg-gray-950 text-gray-50;
+    }
+
+    img {
+        @apply rounded;
+    }
+
+    textarea {
+        @apply min-w-full rounded px-2 py-1;
+    }
+
+    table {
+        @apply bg-gray-700 text-gray-50 min-w-full text-center;
+    }
+
+    input {
+        @apply rounded text-gray-800 px-2 py-2;
+    }
+}
+
+@layer components {
+    .container {
+        @apply px-8 py-4 bg-sky-950 rounded mx-auto mt-4;
+    }
+
+    .admin-menu {
+        @apply mt-2 font-semibold leading-8;
+    }
+
+    .admin-menu li {
+        @apply hover:bg-gray-800 hover:text-gray-50 transition-all px-2 rounded cursor-pointer;
+    }
+
+    .admin-logo {
+        @apply bg-gray-800 rounded-full p-4;
+    }
+
+    .alert-error {
+        @apply bg-red-700 p-2 text-gray-50 text-center rounded;
+    }
+
+    .alert-success {
+        @apply bg-green-700 p-2 text-gray-50 text-center rounded;
+    }
+}
