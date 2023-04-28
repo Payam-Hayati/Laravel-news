@@ -16,6 +16,7 @@ class NewsController extends Controller
     {
         if (!login_validate())
             return redirect("/");
+        $admin = Admin::find(Session::get("admin_id"));
         $categories = Category::all();
         return view("admin.news.add", compact("categories", "admin"));
     }
